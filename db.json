@@ -1,0 +1,166 @@
+{
+  "plans": [
+    {
+      "id": "1",
+      "name": "Unlimited Pack 1GB/Day",
+      "category": "Unlimited Plan",
+      "price": "299",
+      "data": "1GB per day",
+      "validity": "28 Days",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Unlimited Pack 2GB/Day",
+      "category": "Unlimited Plan",
+      "price": "499",
+      "data": "2GB per day",
+      "validity": "56 Days",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "name": "Unlimited Pack 3GB/Day",
+      "category": "Unlimited Plan",
+      "price": "699",
+      "data": "3GB per day",
+      "validity": "84 Days",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "name": "Unlimited Yearly Pack",
+      "category": "Unlimited Plan",
+      "price": "2599",
+      "data": "2.5GB per day",
+      "validity": "365 Days",
+      "status": "active"
+    },
+    {
+      "id": "5",
+      "name": "5G Speed Pack",
+      "category": "5G",
+      "price": "399",
+      "data": "Unlimited 5G",
+      "validity": "30 Days",
+      "status": "active"
+    },
+    {
+      "id": "6",
+      "name": "5G Gaming Booster Pack",
+      "category": "5G",
+      "price": "599",
+      "data": "Unlimited 5G + Low Latency",
+      "validity": "30 Days",
+      "status": "active"
+    },
+    {
+      "id": "7",
+      "name": "5G Speed Pack 90 Days",
+      "category": "5G",
+      "price": "999",
+      "data": "Unlimited 5G",
+      "validity": "90 Days",
+      "status": "active"
+    },
+    {
+      "id": "8",
+      "name": "OTT Bundle Pack",
+      "category": "OTT Plans",
+      "price": "999",
+      "data": "2GB/day + Netflix + Disney+ Hotstar",
+      "validity": "30 Days",
+      "status": "active"
+    },
+    {
+      "id": "9",
+      "name": "OTT Plus Sports Pack",
+      "category": "OTT Plans",
+      "price": "1199",
+      "data": "3GB/day + Amazon Prime + Sports Channels",
+      "validity": "30 Days",
+      "status": "active"
+    },
+    {
+      "id": "10",
+      "name": "OTT Family Pack",
+      "category": "OTT Plans",
+      "price": "1599",
+      "data": "4GB/day + Netflix + Amazon Prime + Disney+ Hotstar",
+      "validity": "60 Days",
+      "status": "active"
+    },
+    {
+      "id": "11",
+      "name": "Data Saver 2GB",
+      "category": "Data Saver",
+      "price": "98",
+      "data": "2GB Total",
+      "validity": "14 Days",
+      "status": "inactive"
+    },
+    {
+      "id": "12",
+      "name": "Data Saver 5GB",
+      "category": "Data Saver",
+      "price": "149",
+      "data": "5GB Total",
+      "validity": "28 Days",
+      "status": "active"
+    },
+    {
+      "id": "13",
+      "name": "Data Saver 10GB",
+      "category": "Data Saver",
+      "price": "199",
+      "data": "10GB Total",
+      "validity": "28 Days",
+      "status": "active"
+    },
+    {
+      "id": "14",
+      "name": "International Roaming Pack",
+      "category": "International Roaming",
+      "price": "1299",
+      "data": "5GB + Wi-Fi Mode",
+      "validity": "10 Days",
+      "status": "active"
+    },
+    {
+      "id": "15",
+      "name": "International Roaming Unlimited",
+      "category": "International Roaming",
+      "price": "2499",
+      "data": "Unlimited + Free Calls",
+      "validity": "15 Days",
+      "status": "active"
+    },
+    {
+      "id": "16",
+      "name": "Popular 1.5GB/Day",
+      "category": "Popular Plan",
+      "price": "399",
+      "data": "1.5GB per day",
+      "validity": "56 Days",
+      "status": "inactive"
+    },
+    {
+      "id": "17",
+      "name": "Popular Plan 2GB/Day",
+      "category": "Popular Plan",
+      "price": "599",
+      "data": "2GB per day",
+      "validity": "84 Days",
+      "status": "active"
+    },
+    {
+      "id": "18",
+      "name": "Popular Annual Plan",
+      "category": "Popular Plan",
+      "price": "2999",
+      "data": "1.5GB per day",
+      "validity": "365 Days",
+      "status": "active"
+    }
+  ]
+}

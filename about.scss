@@ -1,0 +1,152 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss" ;
+
+// Variables
+// $primary-color: #FFA09B;
+// $secondary-color: rgb(104, 99, 99);
+// $white: #fff;
+// $dark-blue: #2c3e50;
+$primary-color: #042b6e;
+$secondary-color: #03a89e;
+$white: #fff;
+$dark-blue: #09132c;
+$gray-text: #666;
+
+// Navbar
+.navbar {
+    background: $white;
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out;
+
+    .navbar-nav {
+        .nav-link {
+            color: $dark-blue;
+            font-weight: 500;
+            padding: 10px 15px;
+
+            &:hover, &.active {
+                color: $secondary-color;
+            }
+        }
+    }
+
+    .register-btn {
+        background: $secondary-color;
+        color: $white;
+        padding: 8px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+
+        &:hover {
+            background: darken($secondary-color, 10%);
+        }
+    }
+
+    &.scrolled {
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        background: $white;
+    }
+}
+
+// About Section
+body {
+    font-family: Arial, sans-serif;
+}
+
+.about-section {
+    padding: 80px 0;
+}
+
+// Image Hover Zoom Effect
+.about-img {
+    position: relative;
+    overflow: hidden;
+
+    img {
+        border-radius: 10px;
+        width: 100%;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    &:hover img {
+        transform: scale(1.05);
+    }
+
+    .decor {
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        background: $primary-color;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        opacity: 0.3;
+    }
+}
+
+// Scroll Animation for Text
+.about-content {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            position: relative;
+            padding-left: 25px;
+
+            &::before {
+                content: "✔";
+                color: $primary-color;
+                position: absolute;
+                left: 0;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+// JavaScript-triggered Class for Scroll Effect
+.about-content.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+// Custom Button
+.btn-custom {
+    background-color: $primary-color;
+    color: $white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+        color: white;
+    }
+}
+
+// Footer
+.footer{
+    background-color: $dark-blue;
+    a{
+        text-decoration: none;
+    }
+}
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
