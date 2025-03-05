@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let mobile = document.getElementById("mobile").value.trim();
 
         if (name === "" || email === "" || mobile === "") {
-            alert("⚠️ Please enter all details!");
+            alert("Please enter all details!");
             return;
         }
 
@@ -29,13 +29,13 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .then(response => response.json())
         .then(data => {
-            statusMessage.innerHTML = '<span class="text-success">✅ User added successfully to Mobi Comm!</span>';
+            statusMessage.innerHTML = '<span class="text-success">User added successfully to Mobi Comm!</span>';
             registerForm.reset();
             addUserToTable(data);
         })
         .catch(error => {
             console.error("Error adding user:", error);
-            statusMessage.innerHTML = '<span class="text-danger">❌ Failed to add user!</span>';
+            statusMessage.innerHTML = '<span class="text-danger">Failed to add user!</span>';
         });
     });
 
